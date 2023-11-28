@@ -1,3 +1,22 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+print('Welcome To Your Password Generator')
+
+chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz.!@£$%^&*?0123456789 '
+
+number = input('Amount of passwords to generate: ')
+number = int(number)
+
+length = input('Input your password length: ')
+length = int(length)
+
+print(' \nHere are your password: ')
+
+for pwd in range(number):
+ passwords = ''
+ for c in range(length):
+  passwords +=  random.choice(chars)
+ print(passwords)
+
+
+
