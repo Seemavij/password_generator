@@ -50,5 +50,12 @@ def get_username():
 ​ def generate_random_password(password_length, valid_chars):
     return ''.join(random.SystemRandom().choice(valid_chars) for _ in range(password_length))
 ​   
+get_username()
+get_password_length()
+get_password_type()
+get_excluded_chars()
+print(generate_random_password(12, string.digits+string.ascii_uppercase+string.punctuation))
+​
+​
 
 
