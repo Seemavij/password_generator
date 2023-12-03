@@ -1,5 +1,20 @@
  import random
  import string
+ import gspread
+
+ from google.oauth2.service_account import Credentials
+
+ SCOPE = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive"
+    ]
+
+ CREDS = Credentials.from_service_account_file('creds.json')
+ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
+ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+ SHEET = GSPREAD_CLIENT.open('PASSWORD_GENERATOR')
+
 
  def validate_input(user_input, valid_values_list):
     if not user_input:
@@ -58,7 +73,7 @@
 get_username()
 get_password_length()
 get_password_type()
-get_excluded_chars()
+get_password_type()
 print(generate_random_password(12, string.digits+string.ascii_uppercase+string.punctuation))
 ​
 ​
