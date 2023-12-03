@@ -1,22 +1,12 @@
 import random
+import string
+​
+​
+def validate_input(user_input, valid_values_list):
+    if not user_input:
+        return False
+    return user_input.lower() in valid_values_list
 
-print('Welcome To Your Password Generator')
-
-chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz.!@£$%^&*?0123456789 '
-
-number = input('Amount of passwords to generate: ')
-number = int(number)
-
-length = input('Input your password length: ')
-length = int(length)
-
-print(' \nHere are your password: ')
-
-for pwd in range(number):
- passwords = ''
- for c in range(length):
-  passwords +=  random.choice(chars)
- print(passwords)
 
 
 
