@@ -26,6 +26,15 @@ def get_username():
             print('Invalid length')
     return length
 
-            
+     def get_password_type():
+    type_valid = False
+    while type_valid is False:
+        password_type = input('Password Type: Enter "1" for Numerical, "2" for AlfaNumerical  ')
+        type_valid = validate_input(password_type, ['1', '2'])
+        if type_valid is False:
+            print('Invalid password type')
+    return password_type
+​
+​       
 
 
