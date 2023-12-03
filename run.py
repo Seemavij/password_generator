@@ -1,8 +1,7 @@
 import random
 import string
 ​
-​
-def validate_input(user_input, valid_values_list):
+​def validate_input(user_input, valid_values_list):
     if not user_input:
         return False
     return user_input.lower() in valid_values_list
@@ -48,6 +47,8 @@ def get_username():
                 chars_excluded = input('Enter the excluded chars:  ')
     return chars_excluded
 ​
-​    
+​ def generate_random_password(password_length, valid_chars):
+    return ''.join(random.SystemRandom().choice(valid_chars) for _ in range(password_length))
+​   
 
 
