@@ -35,6 +35,19 @@ def get_username():
             print('Invalid password type')
     return password_type
 ​
-​       
+​   def get_excluded_chars():
+    chars_excluded = ''
+    exclude_answer_valid = False
+    while exclude_answer_valid is False:
+        want_to_exclude = input('Do you want to exclude some chars from the password generation? (Yes/No) ')
+        exclude_answer_valid = validate_input(want_to_exclude, ['yes', 'no'])
+        if exclude_answer_valid is False:
+            print('Invalid option')
+        else:
+            if want_to_exclude.lower() == 'yes':
+                chars_excluded = input('Enter the excluded chars:  ')
+    return chars_excluded
+​
+​    
 
 
