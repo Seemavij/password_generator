@@ -1,12 +1,12 @@
 import random
 import string
-​
-​def validate_input(user_input, valid_values_list):
+
+ def validate_input(user_input, valid_values_list):
     if not user_input:
         return False
     return user_input.lower() in valid_values_list
-
-def get_username():
+​​
+ def get_username():
     user_name_valid = False
     while user_name_valid is False:
         username = input('Please enter your username:  ')
@@ -16,7 +16,8 @@ def get_username():
             print('Invalid username')
     return username
 ​
-​def get_password_length():
+​
+ def get_password_length():
     length_valid = False
     while length_valid is False:
         length = input('Enter Password Length: (Max 15)  ')
@@ -24,8 +25,9 @@ def get_username():
         if length_valid is False:
             print('Invalid length')
     return length
-
-     def get_password_type():
+​
+​
+ def get_password_type():
     type_valid = False
     while type_valid is False:
         password_type = input('Password Type: Enter "1" for Numerical, "2" for AlfaNumerical  ')
@@ -34,7 +36,8 @@ def get_username():
             print('Invalid password type')
     return password_type
 ​
-​   def get_excluded_chars():
+​
+ def get_excluded_chars():
     chars_excluded = ''
     exclude_answer_valid = False
     while exclude_answer_valid is False:
@@ -47,15 +50,23 @@ def get_username():
                 chars_excluded = input('Enter the excluded chars:  ')
     return chars_excluded
 ​
-​ def generate_random_password(password_length, valid_chars):
+​
+ def generate_random_password(password_length, valid_chars):
     return ''.join(random.SystemRandom().choice(valid_chars) for _ in range(password_length))
-​   
+​
+​
 get_username()
 get_password_length()
 get_password_type()
 get_excluded_chars()
 print(generate_random_password(12, string.digits+string.ascii_uppercase+string.punctuation))
 ​
+​
+​
+  
+    
+    
+
 ​
 
 
