@@ -22,7 +22,9 @@ Below is the flowchart I created as a guide when I was first visualising how the
 >Enter Password Length.
 >Length Max 15
 >Enter the excluded chars.
->password_length, valid_chars.
->Than you get password.
+>Enter your password length.
+>password type: Enter 1 for Numerical.
+>password type: Enter 2 for Numerical.
+>Than you get password and This is generated password.
 
 Features:
