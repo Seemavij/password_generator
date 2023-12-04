@@ -1,6 +1,7 @@
 import random
 import string
 import gspread
+
 from google.oauth2.service_account import Credentials
 
 SCOPE = [
@@ -8,10 +9,12 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive.file",
     "https://www.googleapis.com/auth/drive"
     ]
+
 CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('passwordgenerator')
+
 
 def validate_input(user_input, valid_values_list):
     if not user_input:
@@ -68,10 +71,51 @@ def generate_random_password(password_length, valid_chars):
     return ''.join(random.SystemRandom().choice(valid_chars) for _ in range(password_length))
 
 
-get_username()
-get_password_length()
-get_password_type()
-get_excluded_chars()
-print(generate_random_password(12, string.digits+string.ascii_uppercase+string.punctuation))
+def save_password(username, password):
+    valid_input = False
+    print(f"This is the generated password: {password}")
+    while valid_input is False:
+        print('Enter "1" to save your username and password')
+        print('Enter "2" to not save')
+        option = input("")
+        valid_input = validate_input(option, ['1', '2'])
+        if valid_input is False:
+            print('Invalid option')
+        else:
+            if option == "1":
+                worksheet.append_row([username, password])
+                print("Username and password saved")
+            else:
+                 print("Username and password not saved")
 
+
+
+def menu():
+    quit_generator = False
+    print("WELCOME TO PASSWORD GENERATOR")
+    while quit_generator is False:
+        print('Enter "1" to generate a password')
+        print('Enter "2" to exit')
+        option = input("")
+        quit_generator = validate_input(option, ['1', '2'])
+        if quit_generator is False:
+            print('Invalid option')
+        else:
+            if option == "1":
+                username = get_username()
+                password_length = get_password_length()
+                password_type = get_password_type()
+                char_set = string.digits + string.ascii_uppercase+string.punctuation + string.punctuation
+                if password_type == '1':
+                    char_set = string.digits
+                password = generate_random_password(int(password_length), char_set)
+                print(f"This is the generated password: {password}")
+
+            else:
+                print("Thank you for using PASSWORD GENERATOR, goodbye")
+                quit_generator = True
+
+
+if __name__ == "__main__":
+    menu()
 
