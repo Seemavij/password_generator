@@ -14,7 +14,7 @@
 
 * Flow Chart:
 
-![Flow Chart screenshot(assets/images/password1.png)]
+![Flow Chart screenshot](Assets/images/password1.png)
 
 * Testing:
 
@@ -61,5 +61,5 @@ Features:
 
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear.
 
-python1Linter.png
-python2Linter.png
+![pythonLinter Screenshot](Assets/images/password5.png)
+![pythonLinter Screenshot](Assets/images/password6.png)
