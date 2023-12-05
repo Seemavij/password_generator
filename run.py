@@ -72,7 +72,7 @@ def generate_random_password(password_length, valid_chars):
 
 
 def save_password(username, password):
-    valid_input = False
+    valid_input = False 
     print(f"This is the generated password: {password}")
     while valid_input is False:
         print('Enter "1" to save your username and password')
@@ -86,8 +86,7 @@ def save_password(username, password):
                 worksheet.append_row([username, password])
                 print("Username and password saved")
             else:
-                 print("Username and password not saved")
-
+                print("Username and password not saved")
 
 
 def menu():
@@ -116,6 +115,15 @@ def menu():
                 quit_generator = True
 
 
-if __name__ == "__main__":
+        if __name__ == "__main__":
     menu()
+
+
+
+
+
+
+
+
+
 

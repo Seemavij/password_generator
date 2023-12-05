@@ -12,6 +12,10 @@
 
 >Than you will get password and it shows here is your password.
 
+* Flow Chart:
+
+>screenshot(assets/images/password.1png)
+
 * Testing:
 
 >Testing is carried out throughout the development of the project.
