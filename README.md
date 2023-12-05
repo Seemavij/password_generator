@@ -61,4 +61,5 @@ Features:
 
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear.
 
-[!screenshot(Assets/images/python1Linter.png)]
+python1Linter.png
+python2Linter.png
