@@ -14,7 +14,7 @@
 
 * Flow Chart:
 
-[password.1.png]
+![Flow Chart screenshot(assets/images/password1.png)]
 
 * Testing:
 
