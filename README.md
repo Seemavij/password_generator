@@ -61,5 +61,5 @@ Features:
 
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear.
 
-![pythonLinter Screenshot](Assets/images/password5.png)
-![pythonLinter Screenshot](Assets/images/password6.png)
+![python Linter Screenshot](Assets/images/password5.png)
+![python Linter Screenshot](Assets/images/password6.png)
