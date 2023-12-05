@@ -51,6 +51,8 @@ def get_password_type():
         if type_valid is False:
             print('Invalid password type')
     return password_type
+    
+    
 
 
 def get_excluded_chars():
@@ -116,14 +118,4 @@ def menu():
 
 
         if __name__ == "__main__":
-    menu()
-
-
-
-
-
-
-
-
-
-
+         menu()
