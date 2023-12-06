@@ -1,6 +1,8 @@
 * About:
+>This is password generator. It is used to Generate password. This app ask what type of password you need.First asking your Username and maximum length of password is 15 and asking Enter the excluded chars and length than next step is password type Enter 1 for Numerical and 2 for Alfa numerical.Than you get password and This is generated password.
+
 ![password screenhot](Assets/images/password.10.png)
-![password screenshot](Assets/images/password2.png)
+
 >This is a Password Generator Game.
 
 >This will generate password.
@@ -13,9 +15,7 @@
 
 >Than you will get password and it shows here is your password.
 
-* Flow Chart:
-
-![Flow Chart screenshot](Assets/images/password1.png)
+![password screenshot](Assets/images/password2.png)
 
 * Testing:
 
@@ -27,7 +27,12 @@
 
 > I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
 
+* Flow Chart:
+
+![Flow Chart screenshot](Assets/images/password1.png)
+
 * Design and Inspiration
+
 >I was inspired to make a password generator and working on a that.
 
 >I learned so much during this course. I was intersted to work on this project.
