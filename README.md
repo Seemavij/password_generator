@@ -1,4 +1,5 @@
 * About:
+![password screenhot](Assets/images/password.10.png)
 ![password screenshot](Assets/images/password2.png)
 >This is a Password Generator Game.
 
