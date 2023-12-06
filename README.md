@@ -1,5 +1,5 @@
 * About:
-
+![password screenshot](Assets/images/password2.png)
 >This is a Password Generator Game.
 
 >This will generate password.
