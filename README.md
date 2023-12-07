@@ -46,24 +46,30 @@
 * How To Use:
 >Password Generator is a terminal based data input application. The steps are simple to follow and the user is guided through the prompts in the terminal. Through the progression of the app, the user will go through the following:
 
+* Features:
 >Please enter your username.
 ![screenshot](Assets/images/screenshot11.png)
 
 >Enter Password Length.
+>Maximum Length is 15
 ![screenshot](Assets/images/password12.png)
->Length Max 15
-
->Enter the excluded chars.
-
+ 
 >Enter your password length.
-1[screenshot](Assets/images/password13.png)
->password type: Enter 1 for Numerical.
+![screenshot](Assets/images/password15.png)
 
->password type: Enter 2 for Numerical.
+>password type: Enter 1 for Numerical.
+![screenshot](Assets/images/password13.png)
+
+>password type: Any number excluded 1,2 is Invalid.
+![screenshot](Assets/images/password14.png)
+
+>password type: Enter 2 for Alfa Numerical.
+![screenshot](Assets/images/password17.png)
 
 >Than you get password and This is generated password.
+![screenshot](Assets/images/password16.png)
 
-Features:
+
 
 * Testing
 
