@@ -1,5 +1,5 @@
 * About:
->This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and the maximum length of a password is 15 characters and asks you to Enter the excluded chars and length, then  the next step is the password. Type Enter 1 for Numerical and 2 for Alfa numerical.Then you get your password and This is a password generater.
+>This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and then password length, the maximum length of a password is 15 characters and asks you to Enter the maximum length then ask excluded chars, and then  the next step is the password. Type Enter 1 for Numerical and  Enter 2 for Alfa numerical.Then you get your password and This is a password generater.
 
 ![password screenhot](Assets/images/password.10.png)
 
@@ -43,6 +43,7 @@
 >Password Generator is a terminal based data input application. The steps are simple to follow and the user is guided through the prompts in the terminal. Through the progression of the app, the user will go through the following:
 
 * Features:
+> How to use option and images below.
 
 >Please enter your username.
 ![screenshot](Assets/images/screenshot11.png)
@@ -70,7 +71,7 @@
 
 >CI PEP8 Python Linter.
 
->I checked all of my Python code through the Code Institute Python Linter, which came back all clear.
+>I checked all of my Python code through the Code Institute Python Linter, which came back all clear and attached screenshot.
 
 ![python Linter Screenshot](Assets/images/password5.png)
 ![python Linter Screenshot](Assets/images/password6.png)
@@ -78,7 +79,10 @@
  * Python Libraries Used and Why?
 
 > gspread: I used gspread to access Google spreadsheets, where the data is being stored for this application. It is a library with useful data manipulation functions and allows us to access Google Sheets.But I did not put any data in spreadsheet as per as my mentor advised spreadsheet is not necessary but I attached spreadsheet and mention comment.
+
 > google-auth: I used the Google Auth library to handle the Credentials for the API calls between the application and google sheets.
+
 > Random: The random module in Python is a built-in module that can be used to generate pseudo-random numbers for various distributions. The module implements pseudo-random number generators for various distributions. For integers, there is uniform selection from a range.
+
 > string: Strings are used at a larger scale i.e. for a wide areas of operations such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text. Python has a rich set of string methods that allow you to manipulate and Drawbacks
 of String in Python.
