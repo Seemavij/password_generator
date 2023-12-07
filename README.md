@@ -27,10 +27,6 @@
 
 > I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
 
-
-
-
-
 * Design and Inspiration
 
 >I was inspired to make a password generator and working on a that.
@@ -47,11 +43,12 @@
 >Password Generator is a terminal based data input application. The steps are simple to follow and the user is guided through the prompts in the terminal. Through the progression of the app, the user will go through the following:
 
 * Features:
+
 >Please enter your username.
 ![screenshot](Assets/images/screenshot11.png)
 
->Enter Password Length.
->Maximum Length is 15
+>Enter Password Length Maximum Length is 15.
+
 ![screenshot](Assets/images/password12.png)
  
 >Enter your password length.
@@ -69,8 +66,6 @@
 >Than you get password and This is generated password.
 ![screenshot](Assets/images/password16.png)
 
-
-
 * Testing
 
 >CI PEP8 Python Linter.
@@ -79,4 +74,11 @@
 
 ![python Linter Screenshot](Assets/images/password5.png)
 ![python Linter Screenshot](Assets/images/password6.png)
- 
+
+ * Python Libraries Used and Why?
+
+> gspread: I used gspread to access Google spreadsheets, where the data is being stored for this application. It is a library with useful data manipulation functions and allows us to access Google Sheets.But I did not put any data in spreadsheet as per as my mentor advised spreadsheet is not necessary but I attached spreadsheet and mention comment.
+> google-auth: I used the Google Auth library to handle the Credentials for the API calls between the application and google sheets.
+> Random: The random module in Python is a built-in module that can be used to generate pseudo-random numbers for various distributions. The module implements pseudo-random number generators for various distributions. For integers, there is uniform selection from a range.
+> string: Strings are used at a larger scale i.e. for a wide areas of operations such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text. Python has a rich set of string methods that allow you to manipulate and Drawbacks
+of String in Python.
