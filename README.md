@@ -56,7 +56,7 @@
 >Enter the excluded chars.
 
 >Enter your password length.
-
+1[screenshot](Assets/images/password13.png)
 >password type: Enter 1 for Numerical.
 
 >password type: Enter 2 for Numerical.
