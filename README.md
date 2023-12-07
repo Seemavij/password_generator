@@ -1,5 +1,5 @@
 * About:
->This is password generator. It is used to Generate password. This app ask what type of password you need.First asking your Username and maximum length of password is 15 and asking Enter the excluded chars and length than next step is password type Enter 1 for Numerical and 2 for Alfa numerical.Than you get password and This is generated password.
+>This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and the maximum length of a password is 15 characters and asks you to Enter the excluded chars and length, then  the next step is the password. Type Enter 1 for Numerical and 2 for Alfa numerical.Then you get your password and This is a password generater.
 
 ![password screenhot](Assets/images/password.10.png)
 
@@ -27,9 +27,9 @@
 
 > I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
 
-* Flow Chart:
 
-![Flow Chart screenshot](Assets/images/password1.png)
+
+
 
 * Design and Inspiration
 
@@ -39,14 +39,18 @@
 
 >Below is the flowchart I created as a guide when I was first visualising how the code would be represented.
 
+* Flow Chart:
+
+![Flow Chart screenshot](Assets/images/password1.png)
 
 * How To Use:
 >Password Generator is a terminal based data input application. The steps are simple to follow and the user is guided through the prompts in the terminal. Through the progression of the app, the user will go through the following:
 
 >Please enter your username.
+![screenshot](Assets/images/screenshot11.png)
 
 >Enter Password Length.
-
+![screenshot](Assets/images/password12.png)
 >Length Max 15
 
 >Enter the excluded chars.
