@@ -45,14 +45,19 @@
 
 * Features:
 > How to use option and images below.
+
 >Please enter your username.
+![screenshot](Assets/images/password9.png)
 >Enter Password Length Maximum Length number is 15.
+![screenshot](Assets/images/password3.png)
 >Enter your password length.
 >password type: Enter 1 for Numerical.
+![screenshot](Assets/images/password5.png)
 >password type: Any number excluded 1,2 is Invalid.
+![screenshot](Assets/images/password7.png)
 >password type: Enter 2 for Alpha Numerical.
->Than you get password and This is generated password.
 
+>Than you get password and This is generated password.
 * Testing
 >CI PEP8 Python Linter.
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear and attached screenshot.
