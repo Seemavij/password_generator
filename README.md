@@ -1,5 +1,5 @@
 * About:
->This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and then password length, the maximum length of a password is 15 characters and asks you to Enter the maximum length then ask excluded chars, and then  the next step is the password. Type Enter 1 for Numerical and  Enter 2 for Alfa numerical.Then you get your password and This is a password generater.
+>This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and then password length, the maximum length of a password is 15 characters and asks you to Enter the maximum length then ask excluded chars, and then  the next step is the password. Type Enter 1 for Numerical and  Enter 2 for Alphanumerical.Then you get your password and This is a password generater.
 
 ![password screenhot](Assets/images/password.10.png)
 
@@ -23,10 +23,11 @@
 
 >This is often done before committing the changes to the repository, where the file is kept. However, sometimes, changes are committed to the repository before rigorous testing is applied, to control changes being made.
 
-> Testing happens immediately after and edits are made where necessary.
+>Testing happens immediately after and edits are made where necessary.
 
-> I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
-
+>I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
+>![screenshot](Assets/images/password.20.png)
+>![screenshot](Assets/images/password22.png)
 * Design and Inspiration
 
 >I was inspired to make a password generator and working on a that.
@@ -68,9 +69,7 @@
 ![screenshot](Assets/images/password16.png)
 
 * Testing
-
 >CI PEP8 Python Linter.
-
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear and attached screenshot.
 
 ![python Linter Screenshot](Assets/images/password5.png)
@@ -78,11 +77,11 @@
 
  * Python Libraries Used and Why?
 
-> gspread: I used gspread to access Google spreadsheets, where the data is being stored for this application. It is a library with useful data manipulation functions and allows us to access Google Sheets.But I did not put any data in spreadsheet as per as my mentor advised spreadsheet is not necessary but I attached spreadsheet and mention comment.
+>gspread: I used gspread to access Google spreadsheets, where the data is being stored for this application. It is a library with useful data manipulation functions and allows us to access Google Sheets.But I did not put any data in spreadsheet as per as my mentor advised spreadsheet is not necessary but I attached spreadsheet and mention comment.
 
-> google-auth: I used the Google Auth library to handle the Credentials for the API calls between the application and google sheets.
+>google-auth: I used the Google Auth library to handle the Credentials for the API calls between the application and google sheets.
 
-> Random: The random module in Python is a built-in module that can be used to generate pseudo-random numbers for various distributions. The module implements pseudo-random number generators for various distributions. For integers, there is uniform selection from a range.
+>Random: The random module in Python is a built-in module that can be used to generate pseudo-random numbers for various distributions. The module implements pseudo-random number generators for various distributions. For integers, there is uniform selection from a range.
 
-> string: Strings are used at a larger scale i.e. for a wide areas of operations such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text. Python has a rich set of string methods that allow you to manipulate and Drawbacks
+>string: Strings are used at a larger scale i.e. for a wide areas of operations such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text. Python has a rich set of string methods that allow you to manipulate and Drawbacks
 of String in Python.
