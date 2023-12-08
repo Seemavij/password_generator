@@ -46,7 +46,7 @@ def get_password_length():
 def get_password_type():
     type_valid = False
     while type_valid is False:
-        password_type = input('Password Type: Enter "1" for Numerical, "2" for AlfaNumerical  ')
+        password_type = input('Password Type: Enter "1" for Numerical, "2" for AlphaNumerical  ')
         type_valid = validate_input(password_type, ['1', '2'])
         if type_valid is False:
             print('Invalid password type')
