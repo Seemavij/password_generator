@@ -26,8 +26,8 @@
 >Testing happens immediately after and edits are made where necessary.
 
 >I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
->![screenshot](Assets/images/password.20.png)
->![screenshot](Assets/images/password22.png)
+>![screenshot](Assets/images/password.12.png)
+>![screenshot](Assets/images/password11.png)
 * Design and Inspiration
 
 >I was inspired to make a password generator and working on a that.
@@ -45,28 +45,13 @@
 
 * Features:
 > How to use option and images below.
-
 >Please enter your username.
-![screenshot](Assets/images/screenshot11.png)
-
->Enter Password Length Maximum Length is 15.
-
-![screenshot](Assets/images/password12.png)
- 
+>Enter Password Length Maximum Length number is 15.
 >Enter your password length.
-![screenshot](Assets/images/password15.png)
-
 >password type: Enter 1 for Numerical.
-![screenshot](Assets/images/password13.png)
-
 >password type: Any number excluded 1,2 is Invalid.
-![screenshot](Assets/images/password14.png)
-
->password type: Enter 2 for Alfa Numerical.
-![screenshot](Assets/images/password17.png)
-
+>password type: Enter 2 for Alpha Numerical.
 >Than you get password and This is generated password.
-![screenshot](Assets/images/password16.png)
 
 * Testing
 >CI PEP8 Python Linter.
