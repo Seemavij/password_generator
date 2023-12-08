@@ -56,14 +56,14 @@
 >password type: Any number excluded 1,2 is Invalid.
 ![screenshot](Assets/images/password7.png)
 >password type: Enter 2 for Alpha Numerical.
-
+![screenshot](Assets/images/password6.png)
 >Than you get password and This is generated password.
 * Testing
 >CI PEP8 Python Linter.
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear and attached screenshot.
 
-![python Linter Screenshot](Assets/images/password5.png)
-![python Linter Screenshot](Assets/images/password6.png)
+![python Linter Screenshot](Assets/images/password.13.png)
+![python Linter Screenshot](Assets/images/password8.png)
 
  * Python Libraries Used and Why?
 
