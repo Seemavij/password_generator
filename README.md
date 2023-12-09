@@ -87,20 +87,40 @@ of String in Python.
 * Technologies Used :
 
 >Python
+
 >API
+
 >Spreadsheet
+
 >Figma
+
 >AmIResponsive
+
 >Googlesheet
+
 >Heroku
+
 * Requirements :
+
 ![screenshot](Assets/images/password19.png)
+
 * Deployment :
 >I deployed the app using the website Heroku, which hosts web-based applications. Once you have an account with Heroku, follow these steps for deployment .
+>Create a new app
 ![screenshot](Assets/images/password14.png)
+>Name the app
 ![screenshot](Assets/images/password15.png)
+>Connect the app to GitHub and find the repository where the code is stored and click connect. 
 ![screenshot](Assets/images/password16.png)
+
+>Go to the Settings Tab within the Heroku app. Find the Config Vars and add PORT in the key and 8000 in the value. Then for CREDS in the key and add the credentials that are copied from the .json credentials file in the IDE. I have blacked mine out, as each set of credentials is unique and private.
+
+>Add the buildpacks in this order: Python, NodeJS.
 ![screenshot](Assets/images/password17.png)
+>Add the buildpacks in this order: Python, NodeJS.
+>Go back to the Deploy tab and select automatic deploys, so that whenever a new edit is received by GitHub, Heroku also updates the application. Once this has been clicked. Then click the deploy branch button at the bottom and await for the domain URL to be generated.
 ![screenshot](Assets/images/password18.png)
 ![screenshot](Assets/images/password20.png)
+>We now have a deployed web application!
 ![screenshot](Assets/images/password21.png)
+>Now its deployed!
