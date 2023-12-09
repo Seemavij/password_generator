@@ -28,6 +28,14 @@
 >I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
 >![screenshot](Assets/images/password.12.png)
 >![screenshot](Assets/images/password11.png)
+* Bugs :
+>I checked all the programm is working correct no bugs found.
+>All the functionalities are working correct no bugs found.
+>All the screenshot attached.
+* Unfixed Bugs :
+
+>None
+
 * Design and Inspiration
 
 >I was inspired to make a password generator and working on a that.
@@ -75,3 +83,14 @@
 
 >string: Strings are used at a larger scale i.e. for a wide areas of operations such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text. Python has a rich set of string methods that allow you to manipulate and Drawbacks
 of String in Python.
+
+* Technologies Used :
+>Python
+>API
+>Spreadsheet
+>Figma
+>AmIResponsive
+>Googlesheet
+
+* Deployment :
+>I deployed the app using the website Heroku, which hosts web-based applications. Once you have an account with Heroku, follow these steps for deployment -
