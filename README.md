@@ -85,12 +85,17 @@
 of String in Python.
 
 * Technologies Used :
+
 >Python
 >API
 >Spreadsheet
 >Figma
 >AmIResponsive
 >Googlesheet
+>Heroku
 
 * Deployment :
->I deployed the app using the website Heroku, which hosts web-based applications. Once you have an account with Heroku, follow these steps for deployment -
+>I deployed the app using the website Heroku, which hosts web-based applications. Once you have an account with Heroku, follow these steps for deployment .
+![screenshot](Assets/images/password.14.png)
+![screenshot](Assets/images/password.15.png)
+![screenshot](Assets/images/password.16.png)
