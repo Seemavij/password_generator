@@ -1,7 +1,7 @@
 * About:
 >This is password generator. It is used to Generate a password. This app asks you what type of password you need.First asking your Username and then password length, the maximum length of a password is 15 characters and asks you to Enter the maximum length then ask excluded chars, and then  the next step is the password. Type Enter 1 for Numerical and  Enter 2 for Alphanumerical.Then you get your password and This is a password generater.
 
-![password screenhot](Assets/images/password.10.png)
+![password screenhot](Assets/images/password10.png)
 
 >This is a Password Generator Game.
 
@@ -26,7 +26,7 @@
 >Testing happens immediately after and edits are made where necessary.
 
 >I have carried out testing on the application before and post deployment and have exampled the testing I have carried out post-deployment in the documentation below. 
->![screenshot](Assets/images/password.12.png)
+>![screenshot](Assets/images/password12.png)
 >![screenshot](Assets/images/password11.png)
 * Bugs :
 >I checked all the programm is working correct no bugs found.
@@ -70,7 +70,7 @@
 >CI PEP8 Python Linter.
 >I checked all of my Python code through the Code Institute Python Linter, which came back all clear and attached screenshot.
 
-![python Linter Screenshot](Assets/images/password.13.png)
+![python Linter Screenshot](Assets/images/password13.png)
 ![python Linter Screenshot](Assets/images/password8.png)
 
  * Python Libraries Used and Why?
@@ -93,9 +93,14 @@ of String in Python.
 >AmIResponsive
 >Googlesheet
 >Heroku
-
+* Requirements :
+![screenshot](Assets/images/password19.png)
 * Deployment :
 >I deployed the app using the website Heroku, which hosts web-based applications. Once you have an account with Heroku, follow these steps for deployment .
-![screenshot](Assets/images/password.14.png)
-![screenshot](Assets/images/password.15.png)
-![screenshot](Assets/images/password.16.png)
+![screenshot](Assets/images/password14.png)
+![screenshot](Assets/images/password15.png)
+![screenshot](Assets/images/password16.png)
+![screenshot](Assets/images/password17.png)
+![screenshot](Assets/images/password18.png)
+![screenshot](Assets/images/password20.png)
+![screenshot](Assets/images/password21.png)
