@@ -124,3 +124,20 @@ of String in Python.
 >We now have a deployed web application!
 ![screenshot](Assets/images/password21.png)
 >Now its deployed!
+
+* Helpsheets and Learning Resources
+
+My mentor Antonio support in this project.Some other suggesting ways to continue the development of the project and helping to find suitable libraries for a terminal based application. I researched various libraries a lot for this project. I learned so much from the brilliant documentation online. Below are the links for the main sources of learning for this project.
+>Code Institute for the deployment terminal templates.
+
+>Google-auth
+
+>random
+
+>string
+
+>gspread
+
+![screenshot](Assets/images/password4.png)
+
+Thanks to all Code Institute, Mentor and Tutors for there help.
